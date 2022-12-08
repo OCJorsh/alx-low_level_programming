@@ -1,2 +1,2 @@
 #!/bin/bas
-gcc -s
+gcc .s $CFILE
