@@ -2,16 +2,25 @@
 
 /**
  * print_line - prints straight lines n times.
- *
  * @n: times straight line is printed.
  * Return: void
  */
+
 void print_line(int n)
+
 {
-int i;
-for (i = 0; i < n; i++)
-{
-_putchar(95);
-}
-_putchar('/n/)
+	int x;
+
+	if (n <= 0)
+	{
+	_putchar('\n')
+	}
+	else
+	{
+	for (x = 0; x < n; x++)
+	{
+	_putchar(95);
+	}
+	_putchar('\n')
+	}
 }
