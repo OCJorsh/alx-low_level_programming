@@ -1,7 +1,8 @@
-#include "kasiye.h"
+#include "main.h"
 
 /**
  * *_strcat - concentrate n bytes of two strings
+ * using at most n bytes from src
  * @dest: pointer destination
  * @src: pointer of bytes
  * @n: number of bytes to recieve
